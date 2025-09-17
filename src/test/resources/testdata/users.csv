@@ -1,0 +1,4 @@
+username,secret,expectedCode
+SWSTestUser,<TokenHere>,200
+InvalidUser,wrongSecret,400
+AnotherUser,anotherSecret,400

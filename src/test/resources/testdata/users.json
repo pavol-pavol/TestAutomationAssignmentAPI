@@ -1,0 +1,17 @@
+{
+  "ValidUser": {
+    "username": "SWSTestUser",
+    "secret": "<TokenHere>",
+    "code": 200
+  },
+  "InvalidUser": {
+    "username": "InvalidUser",
+    "secret": "wrongSecret",
+    "code": 400
+  },
+  "AnotherInvalidUser": {
+    "username": "AnotherUser",
+    "secret": "anotherSecret",
+    "code": 400
+  }
+}

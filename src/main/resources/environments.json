@@ -1,0 +1,11 @@
+{
+  "preprod": {
+    "baseUrl": "https://api.ra.pre.swisssign.ch/v2"
+  },
+  "uat": {
+    "baseUrl": "https://uat-api.ra.swisssign.ch/v2"
+  },
+  "prod": {
+    "baseUrl": "https://api.ra.swisssign.ch/v2"
+  }
+}

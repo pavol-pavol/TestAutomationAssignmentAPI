@@ -1,0 +1,49 @@
+# Maven build output
+/target/
+/out/
+
+# IDE files
+*.iml
+.idea/
+.vscode/
+*.ipr
+*.iws
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Test reports
+/allure-results/
+/allure-report/
+/surefire-reports/
+/failsafe-reports/
+
+# Dependency directories (if using local libraries)
+lib/
+*.jar
+
+# Java compiled classes
+*.class
+
+# Generated sources
+/generated-sources/
+/generated-test-sources/
+
+# Environment files (if you store secrets locally)
+.env
+*.properties
+
+# Optional: coverage reports
+/coverage/
+*.exec
+
+.allure/
+# Keep allure.properties in git
+!src/test/resources/allure.properties
